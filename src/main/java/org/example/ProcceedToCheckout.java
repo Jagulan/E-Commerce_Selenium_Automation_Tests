@@ -12,7 +12,7 @@ public class ProcceedToCheckout {
 
     public static void main(String[] args) {
 
-        //This file is for one scenario: which is to Register a new user
+        //This file is for second scenario: which is to sign in and then order/checkout a pet
         //Setup chrome Webdriver path
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\HP\\OneDrive\\Documents\\RMIT\\ST\\s3881257-SeleniumTest\\chromedriver.exe");
 
@@ -35,11 +35,11 @@ public class ProcceedToCheckout {
 
         WebElement loginID = driver.findElement(By.name("username"));
         loginID.clear();  // Clear any pre-filled text
-        loginID.sendKeys("JakeG");
+        loginID.sendKeys("s3881257");
 
         WebElement loginPassword = driver.findElement(By.name("password"));
         loginPassword.clear();  // Clear any pre-filled text
-        loginPassword.sendKeys("RMITOne");
+        loginPassword.sendKeys("RMIT1");
 
         WebElement loginSubmit = driver.findElement(By.name("signon"));
         loginSubmit.click();

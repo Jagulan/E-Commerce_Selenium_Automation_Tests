@@ -8,7 +8,12 @@ import org.openqa.selenium.support.ui.Select;
 
 import java.time.Duration;
 
-public class Main {
+public class RegisterUser {
+
+
+
+
+
     public static void main(String[] args) {
 
         //This file is for one scenario: which is to Register a new user
@@ -19,7 +24,7 @@ public class Main {
         WebDriver driver = new ChromeDriver();
 
         //Set up an implicit wait in case of slow connections.
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
         //Navigate to the given website in the canvas
         driver.get("https://petstore.octoperf.com/");
@@ -39,7 +44,7 @@ public class Main {
         //Fill all the user's details to Register
         //User ID: James
         WebElement UserID = driver.findElement(By.name("username"));
-        UserID.sendKeys("James");
+        UserID.sendKeys("s3881257");
 
         //New password: RMIT1
         WebElement NewPassword = driver.findElement(By.name("password"));
@@ -49,13 +54,13 @@ public class Main {
         RepeatPassword.sendKeys("RMIT1");
         //First Name: James
         WebElement FirstName = driver.findElement(By.name("account.firstName"));
-        FirstName.sendKeys("James");
+        FirstName.sendKeys("Jagulan");
         //Last Name: Rodrick
         WebElement LastName = driver.findElement(By.name("account.lastName"));
-        LastName.sendKeys("Rodric");
+        LastName.sendKeys("S");
         //Email: s3881257@student.rmit.edu.au
         WebElement Email = driver.findElement(By.name("account.email"));
-        Email.sendKeys("s3881257@student.rmit.edu.au");
+        Email.sendKeys("s3881257@student.rmit.au");
         //Phone: 0493123456
         WebElement Phone = driver.findElement(By.name("account.phone"));
         Phone.sendKeys("0493123456");
@@ -96,6 +101,27 @@ public class Main {
         WebElement SaveInformation = driver.findElement(By.name("newAccount"));
         SaveInformation.click();
 
+        try {
+            Thread.sleep(5000);  // Sleep for 5 seconds
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        //Check if the user is registered by signing in
+        SignIn = driver.findElement(By.linkText("Sign In"));
+        SignIn.click();
+
+        WebElement loginID = driver.findElement(By.name("username"));
+        loginID.clear();  // Clear any pre-filled text
+        loginID.sendKeys("s3881257");
+
+        WebElement loginPassword = driver.findElement(By.name("password"));
+        loginPassword.clear();  // Clear any pre-filled text
+        loginPassword.sendKeys("RMIT1");
+
+        WebElement loginSubmit = driver.findElement(By.name("signon"));
+        loginSubmit.click();
 
     }
+
 }
