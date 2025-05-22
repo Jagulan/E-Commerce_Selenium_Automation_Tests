@@ -17,19 +17,19 @@ It demonstrates proficiency in designing and executing various test types, analy
 ### Functional Automation with Selenium & JUnit
 
 * **Core Scenarios Automated:** Implemented automated tests for critical user flows including:
-    * **User Registration:** Covers new user sign-up, including filling out all account details and preference settings[cite: 245, 246, 247, 248, 249, 250, 251, 252].
-    * **Account Updates:** Tests the modification of user account details like email and phone number[cite: 259, 260, 261, 262, 263, 264, 265, 266, 267].
-    * **Product Checkout:** Simulates the process of signing in, selecting a pet (e.g., Persian cat), adding to cart, and completing the checkout process[cite: 228, 229, 230, 231, 232].
-    * **Stock Verification:** Tracks and asserts changes in product stock levels before and after a purchase[cite: 277, 278, 279, 280].
-* **Test-Driven Development (TDD):** Functional tests were designed with a TDD approach, ensuring testability and coverage[cite: 177, 186, 195, 208].
+    * **User Registration:** Covers new user sign-up, including filling out all account details and preference settings.
+    * **Account Updates:** Tests the modification of user account details like email and phone number.
+    * **Product Checkout:** Simulates the process of signing in, selecting a pet (e.g., Persian cat), adding to cart, and completing the checkout process.
+    * **Stock Verification:** Tracks and asserts changes in product stock levels before and after a purchase.
+* **Test-Driven Development (TDD):** Functional tests were designed with a TDD approach, ensuring testability and coverage.
 * **Robust Element Locators:** Utilized various Selenium locators (link text, name, XPath) for reliable element identification.
-* **Assertions with JUnit:** Employed JUnit assertions for validating expected outcomes in test cases, ensuring test integrity[cite: 178, 204, 219].
+* **Assertions with JUnit:** Employed JUnit assertions for validating expected outcomes in test cases, ensuring test integrity.
 
 ### Performance Testing with Apache JMeter
 
-* **Load Simulation:** Conducted performance tests with varying user loads (1, 10, 50, and 100 virtual users) to assess system behavior under stress[cite: 2, 5, 8, 11].
-* **Key Performance Indicators (KPIs) Monitored:** Analyzed average response times, median, 90th, 95th, and 99th percentile lines, minimum/maximum times, error rates, and throughput for critical pages (home, register, sign-in, product pages, cart)[cite: 2, 5, 8, 11].
-* **Detailed Reporting:** Generated comprehensive JMeter analysis reports showcasing performance trends and identifying potential bottlenecks[cite: 2, 5, 8, 11, 3, 4, 6, 7, 9, 10, 12, 13].
+* **Load Simulation:** Conducted performance tests with varying user loads (1, 10, 50, and 100 virtual users) to assess system behavior under stress.
+* **Key Performance Indicators (KPIs) Monitored:** Analyzed average response times, median, 90th, 95th, and 99th percentile lines, minimum/maximum times, error rates, and throughput for critical pages (home, register, sign-in, product pages, cart).
+* **Detailed Reporting:** Generated comprehensive JMeter analysis reports showcasing performance trends and identifying potential bottlenecks.
 
 ## 🚀 Technologies Used
 
@@ -85,13 +85,17 @@ Detailed reports generated from this project are available in the repository.
     * Requirement coverage shows how tests map to user stories (e.g., "user wants to check how to buy a fish and buy a fish"[cite: 15], "Registering a new user"[cite: 341], "update Account details"[cite: 450], "Order and checkout"[cite: 398], "Update Stock" [cite: 528]).
 
 * **JMeter Performance Analysis (`s3881257-Jmeter_Analaysis.pdf`):**
-    * Provides raw data and aggregated results from load tests with 1, 10, 50, and 100 users[cite: 2, 5, 8, 11].
+    * Provides raw data and aggregated results from load tests with 1, 10, 50, and 100 users.
     * Key metrics captured include:
-        * **Average Response Time:** Indicating the typical time taken for a request[cite: 2, 5, 8, 11].
-        * **Throughput:** Requests per second, demonstrating system capacity[cite: 3, 4, 6, 7, 9, 10, 12, 13].
-        * **Error Rate:** (0% for all reported tests, which is excellent for a functional perspective)[cite: 2, 5, 8, 11].
-        * **Percentile Lines:** Showing the response times for a given percentage of requests (e.g., 90% of requests completed within X ms)[cite: 2, 5, 8, 11].
+        * **Average Response Time:** Indicating the typical time taken for a request.
+        * **Throughput:** Requests per second, demonstrating system capacity.
+        * **Error Rate:** (0% for all reported tests, which is excellent for a functional perspective).
+        * **Percentile Lines:** Showing the response times for a given percentage of requests (e.g., 90% of requests completed within X ms).
 
-*(Optional: If you can, add a visual representation of the test report or JMeter graphs. For example, a screenshot of a passed JUnit run in IntelliJ, or a graph from JMeter's HTML report, if you generate one and upload it.)*
+## 📞 Contact
 
-## 🧑‍💻 Project Structure
+Feel free to reach out if you have any questions, want to discuss test automation strategies, or are looking to collaborate!
+
+* **LinkedIn:** [linkedin.com/in/jagulans](https://linkedin.com/in/jagulans)
+* **Email:** `gsjagulan@outlook.com`
+
