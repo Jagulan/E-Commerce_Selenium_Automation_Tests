@@ -80,9 +80,9 @@ To set up and run the automated tests and analyze performance reports locally:
 Detailed reports generated from this project are available in the repository.
 
 * **Selenium Test Reports (`s3881287-Selenium-Report.pdf`):**
-    * These reports provide a comprehensive overview of functional test execution, including pass/fail status, test case details, and requirement coverage[cite: 282, 306, 339, 597, 707].
-    * Individual test case reports confirm execution status ("Passed" for most, some "Failed" with stack traces indicating element location issues, which is valuable for debugging)[cite: 284, 294, 308, 317, 327, 809, 818].
-    * Requirement coverage shows how tests map to user stories (e.g., "user wants to check how to buy a fish and buy a fish"[cite: 15], "Registering a new user"[cite: 341], "update Account details"[cite: 450], "Order and checkout"[cite: 398], "Update Stock" [cite: 528]).
+    * These reports provide a comprehensive overview of functional test execution, including pass/fail status, test case details, and requirement coverage.
+    * Individual test case reports confirm execution status ("Passed" for most, some "Failed" with stack traces indicating element location issues, which is valuable for debugging).
+    * Requirement coverage shows how tests map to user stories (e.g., "user wants to check how to buy a fish and buy a fish", "Registering a new user", "update Account details", "Order and checkout", "Update Stock" ).
 
 * **JMeter Performance Analysis (`s3881257-Jmeter_Analaysis.pdf`):**
     * Provides raw data and aggregated results from load tests with 1, 10, 50, and 100 users.
